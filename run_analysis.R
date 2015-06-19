@@ -96,6 +96,6 @@ rm(refinedDataSet)
 rm(newColNames)
 
 #write out resulting dataset to file
-#write.table(averagedData, file="resultAveragedData.txt",row.name=FALSE)
-averagedData
+write.table(averagedData, file="resultAveragedData.txt",row.name=FALSE)
+#averagedData
 rm(averagedData)
